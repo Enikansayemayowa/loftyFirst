@@ -1,0 +1,68 @@
+.container{
+    height: 100%;
+    margin: 10px;
+}
+
+.profile{
+    height: 40vh;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.display{
+    height: 40vh;
+    width: 300px;
+    background-color: darkgray;
+    border-radius: 50%;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+.form{
+    margin: 20px;
+    font-weight: bold;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.add{
+    margin-top: 10px;
+    width: 20%;
+    color: white;
+    background-color: teal;
+
+}
+.input{
+    width: 50%;
+    height: 30px;
+}
+.container1{
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:teal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    transform: scale(1);
+    transition: all 350ms;
+}
+.container12{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
